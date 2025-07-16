@@ -1,7 +1,7 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import { BrowserRouter } from 'react-router-dom';
-import LoginPage from '../pages/LoginPage';
+import LoginPage from '../pages/login-page';
 
 describe('LoginPage', () => {
   it('renders login form and validates input', async () => {
